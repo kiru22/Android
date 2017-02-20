@@ -1,0 +1,22 @@
+<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="app.nueva.practica">
+
+<application android:allowBackup="true" android:icon="@mipmap/iconojugar" android:label="@string/app_name"
+    android:supportsRtl="true" android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+    <activity android:name=".Menu">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".Ajustes"></activity>
+</application>
+
+</manifest>=======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="app.nueva.practica.Acercade"></activity>
+</application>
+</manifest>>>>>>>> Added
