@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Qqsm</string>
     <string name="menu_info">Acerca de</string>
+    <string name="pestania_local">Local</string>
+    <string name="pestania_amigos">Amigos</string>
 
 </resources>

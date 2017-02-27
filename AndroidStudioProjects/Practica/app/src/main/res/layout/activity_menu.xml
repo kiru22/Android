@@ -47,7 +47,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bPuntuacion"
-            android:background="@android:drawable/editbox_background_normal" />
+            android:background="@android:drawable/editbox_background_normal"
+            android:onClick="onClickPuntuacion" />
 
         <Button
             android:text="Salir"
