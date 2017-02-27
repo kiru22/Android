@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_acercade"
     android:layout_width="match_parent"
@@ -8,6 +9,46 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="app.nueva.practica.Acercade">
+    tools:context="app.nueva.practica.Acercade"
+    android:background="@android:drawable/screen_background_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/foto"
+            android:id="@+id/imageView2" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="Autor:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAutor"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:text="Ruslan Kyrch              ruskyr@inf.upv.es"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombre"
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="170dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/upvlogo"
+            android:id="@+id/imageView3" />
+
+    </LinearLayout>
 
 </RelativeLayout>

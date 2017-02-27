@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import
 
 public class Menu extends AppCompatActivity {
 
@@ -22,13 +21,10 @@ public class Menu extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getTitle()== R.string.){
-            Intent intent = new Intent(this, activity_acercade.class);
+
+            Intent intent = new Intent(this, Acercade.class);
             startActivity(intent);
-        }
-        else if(item.getTitle()== R.id.home){
-            return super.onOptionsItemSelected(item);
-        }
+
         return true;
     }
 }
