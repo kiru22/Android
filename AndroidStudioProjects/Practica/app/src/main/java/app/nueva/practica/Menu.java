@@ -11,9 +11,12 @@ public class Menu extends AppCompatActivity {
 
     public void onClickPuntuacion(View view){
         Intent intent = new Intent(this, Puntuacion.class);
-        startActivity(intent);
+        startActivity(intent);}
 
-    }
+    public void onClickAjustes(View view){
+        Intent intent = new Intent(this, Ajustes.class);
+        startActivity(intent);}
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

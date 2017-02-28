@@ -8,6 +8,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
         <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Acercade" />
-        <activity android:name=".Puntuacion"></activity>
+        <activity android:name=".Puntuacion" />
+        <activity android:name=".Jugar"></activity>
     </application>
 
 </manifest>

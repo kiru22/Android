@@ -40,7 +40,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bAjustes"
-            android:background="@android:drawable/editbox_background_normal" />
+            android:background="@android:drawable/editbox_background_normal"
+            android:onClick="onClickAjustes" />
 
         <Button
             android:text="Puntuacion"
